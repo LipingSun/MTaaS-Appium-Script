@@ -13,8 +13,8 @@ describe("android test", function() {
 
     before(function() {
         var server = {
-            host: '54.149.86.94',
-            port: 4724
+            host: '127.0.0.1',
+            port: 4723
         };
         driver = wd.promiseChainRemote(server);
         driver.on('status', function(info) { console.log(info.cyan); });
@@ -24,7 +24,7 @@ describe("android test", function() {
         var desired = {
             platformName: 'Android',
             // platformVersion: '2.3.3',
-            udid: '0.tcp.ngrok.io:15938',
+            udid: '0.tcp.ngrok.io:18794',
             deviceName: 'Android',
             app: "/home/ubuntu/appium-test/sample-code/apps/ApiDemos/bin/ApiDemos-debug.apk"
         }
