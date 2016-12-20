@@ -24,7 +24,7 @@ describe("android test", function() {
         var desired = {
             platformName: 'Android',
             // platformVersion: '2.3.3',
-            udid: '0.tcp.ngrok.io:18794',
+            udid: '0.tcp.ngrok.io:11363',
             deviceName: 'Android',
             app: "/home/ubuntu/appium-test/sample-code/apps/ApiDemos/bin/ApiDemos-debug.apk"
         }
