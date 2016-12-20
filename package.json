@@ -1,0 +1,17 @@
+{
+  "name": "appium-android",
+  "version": "1.0.0",
+  "description": "",
+  "main": "appium-android.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "colors": "^1.1.2",
+    "wd": "^1.1.1"
+  }
+}
